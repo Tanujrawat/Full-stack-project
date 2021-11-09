@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        meter {
+          width: 100%;
+          height: 30px;
+        }
+      </style>
+</head>
+<body>
+    <form oninput="res.value=a.value+ ' ' + b.value" action="" method="post">
+        <p>calculate the sum of the given name</p>
+        <label> this is first value:</label>
+        <input type="text" name="a" value=""><br>+
+        <br />
+        <label> this is second value:</label>
+        <input type="text" name="b" value=""><br>=<br />
+        output is: <output name="res"></output>
+    </form>
+</body>
+</html>
